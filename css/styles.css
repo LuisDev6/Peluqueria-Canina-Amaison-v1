@@ -70,7 +70,7 @@ body{
 
  
 .h1Main{
-    font-family: Lobster, Arial, Helvetica, sans-serif;
+    font-family: Lobster, 'lobster', Arial, Helvetica, sans-serif;
     background-color:rgb(243, 230, 207);
     text-align: center;
     margin-bottom: 20px;
@@ -98,7 +98,15 @@ body{
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+}
 
+
+
+
+.iframe__ubicacion{
+    margin-top: 50px;
+    border:#6155A6 solid;
+    margin: auto;
 }
 
 /* FOOTER */
@@ -106,23 +114,4 @@ body{
     background-color:rgb(243, 230, 207);  
     margin-top: auto;
     text-align: center;
- 
-    
-}
-.main{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.form{
-    margin: auto;
-}
-
-.tabla__galeria{
-    margin: auto;
-}
-.iframe__ubicacion{
-    margin-top: 50px;
-    border:#6155A6 solid;
-    margin: auto;
 }

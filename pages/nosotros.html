@@ -8,23 +8,49 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <title>Piu Bello</title>
 </head>
 
 <body class="body">
-    <!-- FLEXBOX -->
+    <!-- MENU CON BOOTSTRAP -->
     <header class="header">
-        <div class="logoNav animate__animated animate__flipInX">
-            <a href="../index.html"> <img src="../images/logoNav.png" alt="logo"></a>
-        </div>
-        <nav class="nav">
-            <ul class="menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                <li class="li--aResaltado"><a href="../pages/turnos.html">Turnos</a></li>
-                <li><a href="../pages/ubicacion.html">Ubicacion</a></li>
-                <li><a href="../pages/misTrabajos.html">Galeria</a></li>
-            </ul>
+
+        <nav class="nav navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand logoNav animate__animated animate__flipInX" href="../index.html"> <img
+                        src="../images/logoNav.png" alt="logo"></a>
+
+                <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="menu navbar-nav  mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link li--aResaltado" href="../pages/turnos.html">Turnos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/ubicacion.html">Ubicacion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/misTrabajos.html">Galeria</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -59,6 +85,9 @@
         <img src="../images/twitter.png" alt="logo twitter" height="20" width="20">
         <img src="../images/instagram.png" alt="logo instagram" height="20" width="20">
     </footer>
+
+    <!-- SCRIPT DE BOOTSTRAP -->
+    <script src="../js/bootstrap.js"></script>
 </body>
 
 </html>
