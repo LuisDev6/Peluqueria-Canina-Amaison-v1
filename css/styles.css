@@ -39,9 +39,6 @@ body{
     flex-wrap: nowrap;
 
 }
-.menu{
-
-}
 
 .menu a:hover{
     background-color: #EA99D5;
@@ -87,9 +84,6 @@ body{
     margin-right: 50px;
 }
 
-.aside{
-
-}
 
 .aside__image{
     display: block;
@@ -100,6 +94,9 @@ body{
     margin-right: auto;
 }
 
+.form--fondo{
+    background-color:rgb(243, 230, 207);
+}
 
 
 
